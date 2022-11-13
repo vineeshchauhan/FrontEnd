@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1> You have following things to do</h1>
+    </head>
+    <body>
+        <input id="search-todo" type="text" placeholder="Search Your Todo">
+        <label>
+            <input id="todo-status" type="checkbox"> Show Only Remain Todos
+        </label>
+        <div id="todos-list"> 
+        </div>
+        <form id = "todo-form">
+            <input id="todo-item" type='text' placeHolder="Enter Todo name" name = "todoName">
+            <button>Submit Form</button>
+        </form>
+      
+   
+        <button id = "add-todo">Add todo Here</button>
+        <button id = "delete-todo">Delete todo Here</button>
+        <select id="todo-options">
+            <option value="add">Add</option>
+            <option value="delete">Delete</option>
+            <option value="refresh">Refresh</option>
+        </select>
+       
+        <script src = "todos-app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+How Hangman will look like?
+1- Correct Word
+2- Current Guess
+3- Already guessed Word
+
+UI
+
+label - to show Word
+text field - to enter guess      remaining attempt
+lable which will show which are already taken

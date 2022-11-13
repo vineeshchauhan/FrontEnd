@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Your Todo Tracker</h1>
+    </head>
+    <body>
+        <!--Filter Todo using content-->
+        <input id="note-content-filter" type="text" placeholder="Search Todos">
+        <!--Filter Todo using status-->
+        <label>
+            <input id="note-status-filter" type="checkbox">Show Only Remain Todos
+        </label>
+        <!--Show list-->
+        <div id="note-content">
+            <p>Notes goes here</p>
+        </div>
+        <!--Add todo form-->
+        <form id="note-add-form">
+            <input id="note-add" type="text" placeholder="Eneter todo item" name = "todoName">
+            <button>Submit Form</button>    
+        </form>
+        <!--Third Party -->
+        <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+        <script src = "todo-content-filter.js"></script>
+        <script src = "remove-update-todo.js"></script>
+        <script src = "todos-status-filter.js"></script>
+        <script src = "todos-storage.js"></script>
+        <script src = "todos-renderer.js"></script>
+        <script src = "todos-app.js"></script>  
+    </body>
+</html>

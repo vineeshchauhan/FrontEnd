@@ -1,0 +1,33 @@
+Arrow function don't bind this.
+
+Object Oriented Programming
+Orirented Programming is programming based on some concepts.
+Objects are used to represent real world things. Person, Car
+
+Oops promote code reuseablilty. 
+Object is JS
+
+Const person = {
+    firstName : 'Vineesh',
+    lastName : 'Chauhan',
+    age : 10,
+    getBio(){
+        return `${this.firstName} ${this.lastName} age is ${this.age}`
+    }
+}
+
+//using oops, we can create function which serves us as a template.
+const person1 = new Person('Vineesh', 'Chauhan', 32)
+const person2 = new Person('Akanksha', 'Chaudhary', 32)
+
+person1.getBio()
+person2.getBio()
+
+Person Prototype = Prototype will define how the objects will behave or look.
+
+
+
+
+
+
+
